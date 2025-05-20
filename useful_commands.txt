@@ -1,0 +1,54 @@
+##################
+Creating Virtual Environment:
+
+----     python -m venv env1
+
+#to activate
+ source env_1/Scripts/activate
+
+
+#to deactivate
+deactivate
+**-
+
+/****----------------------------------***/
+##################################
+
+pip freeze
+
+pip install -r requirements.txt
+
+##############
+Git
+
+
+-- git init
+
+# create a new repository on the command line 
+
+echo "# Zwigato_app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HARSHIT097/Zwigato_app.git
+git push -u origin main
+
+
+# push an existing repository from the command line
+git remote add origin https://github.com/HARSHIT097/Zwigato_app.git
+git branch -M main
+git push -u origin main
+
+
+#Adding Git ignore file
+gitgnore.io ---> search Django and add the content
+
+
+
+######################
+django-admin startproject restro_main .
+
+python manage.py runserver 0.0.0.0
+
+
