@@ -52,3 +52,20 @@ django-admin startproject restro_main .
 python manage.py runserver 0.0.0.0
 
 
+#######################
+python manage.py migrate
+
+python manage.py createsuperuser
+
+harsh
+lOGIN@HARSH0909
+#############################
+
+Credits:
+
+Frontend:
+www.themeforest.net
+https://freetemplate.rathank.com/
+https://github.com/dev-rathankumar/foodOnline/tree/main
+
+#############
